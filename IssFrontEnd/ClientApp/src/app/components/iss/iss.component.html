@@ -1,0 +1,29 @@
+<div class="child-container">
+    <p><b>ISS Component</b></p>
+
+    <div class="error-panel" *ngIf="messages?.length !== 0">
+        <p *ngFor="let x of messages">{{m?.message}}</p>
+    </div>
+
+    <p>Weather </p>
+    <div>
+        <p *ngIf="!(issLocation$ | async)">Loading ...</p>  
+        <p *ngIf="issLocation$ | async as x"><b>LAST UPDATED :</b> {{x.lastUpdated | date : 'dd MMM yyyy hh:mm:ss'}}</p>
+        <table *ngIf="issLocation$ | async as x">
+            <thead>
+                <td>Time</td>
+                <td>Longitude</td>
+                <td>Latitude </td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{x.timestamp | date :'dd MMM yyyy hh:mm:ss'}}</td>
+                    <td>{{x.longitude}}</td>
+                    <td>{{x.latitude}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</div>

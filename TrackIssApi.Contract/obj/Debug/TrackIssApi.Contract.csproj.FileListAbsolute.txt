@@ -1,0 +1,6 @@
+C:\Users\Guru\source\repos\TrackIssApi.Contract\bin\Debug\TrackIssApi.Contract.dll
+C:\Users\Guru\source\repos\TrackIssApi.Contract\bin\Debug\TrackIssApi.Contract.pdb
+C:\Users\Guru\source\repos\TrackIssApi.Contract\obj\Debug\TrackIssApi.Contract.csprojAssemblyReference.cache
+C:\Users\Guru\source\repos\TrackIssApi.Contract\obj\Debug\TrackIssApi.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Guru\source\repos\TrackIssApi.Contract\obj\Debug\TrackIssApi.Contract.dll
+C:\Users\Guru\source\repos\TrackIssApi.Contract\obj\Debug\TrackIssApi.Contract.pdb
