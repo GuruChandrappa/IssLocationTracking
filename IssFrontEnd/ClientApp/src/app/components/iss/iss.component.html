@@ -5,7 +5,7 @@
         <p *ngFor="let x of messages">{{m?.message}}</p>
     </div>
 
-    <p>Weather </p>
+    <p>Iss Location</p>
     <div>
         <p *ngIf="!(issLocation$ | async)">Loading ...</p>  
         <p *ngIf="issLocation$ | async as x"><b>LAST UPDATED :</b> {{x.lastUpdated | date : 'dd MMM yyyy hh:mm:ss'}}</p>
